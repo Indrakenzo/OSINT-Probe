@@ -1,0 +1,34 @@
+# ===============================================
+#           REQUIREMENTS UNTUK OSINT-PROBE
+#        Oleh Indra-Jarvis
+# ===============================================
+
+# --- CORE LIBRARIES (FONDASI UTAMA) ---
+# Untuk membuat permintaan HTTP ke website dan API
+requests
+# Untuk memberikan warna pada output di terminal
+termcolor
+
+# --- DOMAIN & DNS INTELLIGENCE ---
+# Untuk mengambil data registrasi domain (WHOIS)
+python-whois
+# Untuk melakukan kueri DNS (mencari MX, NS, A records, dll.)
+dnspython
+
+# --- WEB SCRAPING & ANALYSIS ---
+# Untuk mem-parsing dan membaca konten HTML dari sebuah halaman web
+beautifulsoup4
+# Parser yang cepat dan efisien untuk BeautifulSoup
+lxml
+
+# --- USERNAME & SOCIAL MEDIA ENUMERATION ---
+# Untuk mencari keberadaan sebuah username di berbagai situs sosial media
+social-analyzer
+
+# --- IoT & SERVICE INTELLIGENCE ---
+# Untuk berinteraksi dengan API Shodan (mencari perangkat yang terhubung ke internet)
+shodan
+
+# --- DATA HANDLING & EXPORTING ---
+# Untuk mengelola data yang ditemukan dalam format tabel dan mengekspornya ke file (misal: .csv)
+pandas
